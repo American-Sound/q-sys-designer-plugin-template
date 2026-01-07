@@ -35,3 +35,4 @@ Place your `.qplug` file into `C:\Users\<USERNAME>\Documents\QSC\Q-Sys Designer\
 # 3rd Party
 
 * [LuaUnit](https://luaunit.readthedocs.io/en/luaunit_v3_2_1/) for testing.
+* [Unofficial Q-Sys Community](https://github.com/q-sys-community) and Sam Shelton for plugin development documentation
