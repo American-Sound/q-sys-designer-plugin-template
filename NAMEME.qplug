@@ -1,0 +1,86 @@
+-- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+PluginInfo = {
+  -- Name of plugin in tree
+  -- `~` allows for folder structure
+  Name = "FolderName~PluginName",
+  -- Version String (unused directly by Q-Sys Designer)
+  Version = "VersionString",
+  -- Id is a UID for this plugin within the context of Designer
+  Id = "qsysc.make.model.version",
+  -- Description
+  Description = "DescriptionString",
+  -- Author (Used to put into group)
+  -- QSC = QSC Managed
+  -- Default: User
+  Author = "AuthorString",
+  -- Show Debug Window
+  ShowDebug = true,
+}
+
+
+
+-- TODO remove this. This is an example function for tests.
+function add_function(a, b)
+    return a + b
+end
+
+
+
+function GetPrettyName(props)
+    -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+end
+
+
+
+-- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+pagenames = {}
+
+
+
+function GetPages(props)
+    local pages = {}
+    -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+    return pages
+end
+
+
+
+function GetProperties()
+    local props = {
+        -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+    }
+    return props
+end
+
+
+
+function RectifyProperties(props)
+    -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+end
+
+
+
+function GetControls(props)
+    local controls = {}
+    controls = {
+        -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+    }
+    return controls
+end
+
+
+
+function GetControlLayout(props)
+    local layout   = {}
+    local graphics = {}
+    -- TODO fill according to https://github.com/q-sys-community/q-sys-plugin-guide
+    return layout, graphics
+end
+
+
+
+if Controls then
+
+    -- TODO fill with your logic
+
+end
